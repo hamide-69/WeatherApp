@@ -1,0 +1,58 @@
+$color-first: #333 ;
+$color-second :#8d165d ;
+
+
+
+@mixin flexLayout {
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+    
+}
+
+@mixin borders($topValue) {
+    border: none;
+    border-radius:$topValue ;
+}
+
+body {
+    background:  url(../images/sunset.jpg) center no-repeat;
+    background-size: cover;
+ height: 100vh;
+
+#root{
+    @include flexLayout;
+    padding-top: 8vh;
+}
+
+ .box1{
+    @include flexLayout;
+    background:linear-gradient(rgba($color-second  ,0.7),rgba(#ad2956,0.7) ,rgba(#d53d45,0.7),rgba(#f24a3a,0.7));
+     width: 37vw;
+     height:74vh;
+     border-radius: 17px;
+
+     input {
+        @include borders(3px) ;
+        padding: 9px 25px;
+        margin: 5px 3px;
+    }
+    button {
+        @include borders(6px) ;
+        padding: 9px 8px;
+        background: #ccc;
+    }
+    
+ }
+
+ .title{
+    position: absolute;
+    top: 7vw;
+    color: #fff;
+    font-size: 20px;
+    
+ }
+    
+}
+

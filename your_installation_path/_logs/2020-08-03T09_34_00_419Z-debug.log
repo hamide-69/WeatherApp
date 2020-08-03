@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Nigje\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '--save',
+1 verbose cli   '@fortawesome/fontawesome-svg-core',
+1 verbose cli   '\\'
+1 verbose cli ]
+2 info using npm@6.14.4
+3 info using node@v13.12.0
+4 verbose npm-session c839d6bf9b0cd71a
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for file:/ Could not install from "..\.." as it does not contain a package.json file.
+8 http fetch GET 304 https://registry.npmjs.org/@fortawesome%2ffontawesome-svg-core 1245ms (from cache)
+9 http fetch GET 200 https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.30.tgz 20ms (from cache)
+10 silly pacote range manifest for @fortawesome/fontawesome-svg-core@^1.2.30 fetched in 1306ms
+11 timing stage:rollbackFailedOptional Completed in 1ms
+12 timing stage:runTopLevelLifecycles Completed in 14640ms
+13 verbose stack Error: ENOENT: no such file or directory, open 'I:\package.json'
+14 verbose cwd I:\project\wheather
+15 verbose Windows_NT 10.0.18363
+16 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Nigje\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "--save" "@fortawesome/fontawesome-svg-core" "\\"
+17 verbose node v13.12.0
+18 verbose npm  v6.14.4
+19 error code ENOLOCAL
+20 error Could not install from "..\.." as it does not contain a package.json file.
+21 verbose exit [ 1, true ]

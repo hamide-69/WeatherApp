@@ -1,0 +1,45 @@
+body {
+  background: url(../images/sunset.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+body #root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8vh;
+}
+
+body .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(141, 22, 93, 0.7), rgba(173, 41, 86, 0.7), rgba(213, 61, 69, 0.7), rgba(242, 74, 58, 0.7));
+  width: 37vw;
+  height: 74vh;
+  border-radius: 17px;
+}
+
+body .box1 input {
+  border: none;
+  border-radius: 3px;
+  padding: 9px 25px;
+  margin: 5px 3px;
+}
+
+body .box1 button {
+  border: none;
+  border-radius: 6px;
+  padding: 9px 8px;
+  background: #ccc;
+}
+
+body .title {
+  position: absolute;
+  top: 7vw;
+  color: #fff;
+  font-size: 20px;
+}
